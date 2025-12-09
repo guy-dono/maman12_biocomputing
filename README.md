@@ -19,16 +19,11 @@ Find **X** (celltypes x samples) such that **M = HX**, where each column of X re
 ### Using Poetry
 ```bash
 poetry install
+poetry run python main.py
 ```
 
 ### Using pip
 ```bash
 pip install numpy pandas matplotlib scipy
-```
-
-## Usage
-
-Run the visualization script:
-```bash
 python main.py
 ```
